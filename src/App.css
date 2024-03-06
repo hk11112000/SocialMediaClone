@@ -1,0 +1,267 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  display: none;
+  visibility: hidden;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  display: none;
+  visibility: hidden;
+}
+.appContainer {
+  display: flex;
+}
+.contentContainer {
+  width: 100%;
+}
+.sideBar {
+  position: fixed;
+  height: 100vh;
+}
+.headerContainer {
+  background: #212529 !important;
+  position: fixed;
+  right: 0;
+  width: calc(100% - 15%) !important;
+  max-width: calc(100% - 15%) !important;
+  padding-bottom: 0 !important;
+  padding-top: 15px !important;
+  z-index: 1000;
+}
+.postCard {
+  margin: 15px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.hashTag {
+  margin: 0 3px;
+}
+.formContainer {
+  margin: 10px auto;
+  width: 70%;
+  padding: 15px 30px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.noPostContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.noPostContainer img {
+  height: 500px;
+  margin: auto;
+}
+.footerContainer {
+  position: static;
+  width: 90% !important;
+  float: right;
+}
+.footerContainer footer {
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+.postAppContainer {
+  width: 85%;
+  margin: auto;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 120px;
+}
+.activeOnWebApp{
+  display: block !important;
+  padding-left: 0 !important ;
+  text-align: center;
+}
+.activeOnMobile{
+  display: none !important;
+  padding-left: 0  !important;
+  text-align: center;
+}
+.menuHamContainer{
+  display: none;
+    color: white !important;
+    font-size: 40px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .activeOnWebApp{
+    display: none !important;
+    padding: 10px !important;
+  }
+  .noPostContainer img {
+    height: 200px;
+    margin: auto;
+  }
+  .activeOnMobile{
+    display: block !important;
+    padding: 10px !important;
+  }
+  .aContainer strong{
+    display: none;
+  }
+  .aContainer img{
+    margin-right: 0;
+  }
+  .footerContainer footer p{
+    width: 100%;
+    text-align: center;
+  }
+  .footerContainer footer ul{
+    display: none;
+  }
+  .sideBarTitle{
+    display: none;
+  }
+  .menuContainer{
+    display: none !important;
+    
+  }
+  .noPostContainer{
+    padding-left: 25px;
+    padding-top: 50px;
+  }
+  .menuHamContainer{
+    display: block;
+    color: white !important;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 6px;
+    padding-left: 20px;
+    
+  }
+
+  .headerContainer header{
+    display: flex;
+    justify-content: end !important;
+    align-items: center;
+
+    
+    
+  }
+  .sideBar{
+    width: 20% !important;
+  }
+  .postAppContainer{
+    width: 55%;
+    padding: 0 20px;
+    justify-content: start;
+    padding-top: 100px;
+  }
+  .postCard{
+    width: 15rem !important;
+  }
+  .formContainer{
+    width: 146%;
+    padding: 10px 20px;
+  }
+  .sideBar{
+    height: 100vh;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .activeOnWebApp{
+    display: none !important;
+    padding: 10px !important;
+  }
+  .activeOnMobile{
+    display: block !important;
+    padding: 10px !important;
+  }
+  .aContainer strong{
+    display: none;
+  }
+  .aContainer img{
+    margin-right: 0;
+  }
+  .footerContainer footer p{
+    width: 100%;
+    text-align: center;
+  }
+  .footerContainer footer ul{
+    display: none;
+  }
+  .sideBarTitle{
+    display: none;
+  }
+  .menuContainer{
+    display: none !important;
+    
+  }
+  .menuHamContainer{
+    display: block;
+    color: white !important;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 6px;
+    padding-left: 20px;
+    
+  }
+
+  .headerContainer header{
+    display: flex;
+    justify-content: end !important;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    width: 100%;
+    
+    
+  }
+  .headerContainer{
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  .sideBar{
+    width: 20% !important;
+  }
+  .postAppContainer{
+    width: 55%;
+    padding: 0 20px;
+    justify-content: start;
+    padding-top: 100px;
+  }
+  .postCard{
+    width: 15rem !important;
+  }
+  .formContainer{
+    width: 146%;
+    padding: 10px 20px;
+  }
+  .facebookContainer{
+    display: none;
+  }
+  
+}
+@media only screen and (max-width: 1400px) {
+  .headerContainer{
+
+  }
+}
+
