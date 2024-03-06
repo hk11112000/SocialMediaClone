@@ -1,8 +1,5 @@
-# React + Vite
+# Social Media Clone
+This is very Basic Social Media app which will help you create a post and see that post in Home Page It covered some very Imp React topics like useReducer(),useState(),useRef(),useContext()
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live Application Link: https://facebookclonesm.netlify.app/
